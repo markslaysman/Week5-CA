@@ -1,7 +1,6 @@
 
 //Create a menu driven app using prompts to manage various characters
 
-
 //create Character class
 class Character{
     constructor(name, type, powerLevel, phrase){
@@ -43,6 +42,7 @@ class Team {
     }
 }
 
+//create the Menu class
 class Menu {
     constructor() {
         this.teams = [];
